@@ -332,8 +332,8 @@
       "name" : "meta.attributes.mlir"
     },
     "function_params" : {
-      "end" : ")",
-      "begin" : "(",
+      "end" : "\\)",
+      "begin" : "\\(",
       "patterns" : [
         {
           "include" : "#identifier"

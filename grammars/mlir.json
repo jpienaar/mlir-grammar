@@ -344,8 +344,6 @@
       ]
     }
   },
-  "scope" : "mlir",
-  "uuid" : "E8330409-2D21-4DB5-A433-F367EE00E6FB",
   "patterns" : [
     {
       "match" : "\\b(module)\\b",

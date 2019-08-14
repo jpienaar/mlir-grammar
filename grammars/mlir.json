@@ -105,6 +105,9 @@
       },
       "patterns" : [
         {
+          "include" : "#comment"
+        },
+        {
           "include" : "#branch_target"
         },
         {

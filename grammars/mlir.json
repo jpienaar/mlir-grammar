@@ -277,6 +277,9 @@
       },
       "patterns" : [
         {
+          "include" : "#comment"
+        },
+        {
           "include" : "#attributes"
         },
         {

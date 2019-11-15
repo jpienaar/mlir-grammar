@@ -55,7 +55,7 @@
       "name":"string.quoted.double.mlir"
     },
     "types":{
-      "match":"[\\Wx](index|i[1-9][0-9]*|f16|bf16|f32|f64|memref|tensor)\\b\\s[^=]",
+      "match":"[\\Wx](index|i[1-9][0-9]*|f16|bf16|f32|f64|memref|tensor)\\b",
       "captures":{
         "1":{
           "name":"storage.type.mlir"

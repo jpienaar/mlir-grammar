@@ -3,6 +3,10 @@
       "mlir"
    ],
    "repository":{
+      "branch_target" :{
+        "match":"\\^bb[\\w\\d_$\\.-]+",
+        "name":"entity.name.label.mlir"
+      },
       "comment":{
          "match":"\/\/.*$",
          "name":"comment.line.double-slash.mlir"
@@ -75,11 +79,14 @@
          "name":"keyword.module.mlir"
       },
       {
-         "match":"\\b(attributes|call|constant|loc|return)\\b",
+         "match":"\\b(attributes|br|call|constant|loc|return)\\b",
          "name":"keyword.module.mlir"
       },
       {
          "include":"#identifier"
+      },
+      {
+         "include":"#branch_target"
       },
       {
          "include":"#integer"

@@ -76,12 +76,15 @@
       "include":"#string"
     },
     {
-      "match":"\\b(func)\\b\\s*(@[\\w_][\\w\\d_.$]*)",
+      "match":"\\b(func)\\b\\s*(|private|public)\\s*(@[\\w_][\\w\\d_.$]*)",
       "captures":{
         "1":{
           "name":"keyword.function.mlir"
         },
         "2":{
+          "name":"keyword.function.mlir"
+        },
+        "3":{
           "name":"entity.name.function.mlir"
         }
       },
